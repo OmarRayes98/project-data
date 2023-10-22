@@ -1,21 +1,274 @@
 {
-  "posts": [
+  "courses": [
     {
       "id": 1,
-      "title": "this is second title",
-      "description": "this is edit description"
+      "title": "ReactJs Course",
+      "description": "React is a library. It lets you put components together, but it doesn't prescribe how to do routing and data fetching. To build an entire app with React",
+      "lessons": 40,
+      "cost":50,
+      "star":4.8,
+      "start":"10/15/2023",
+      "end":"12/15/2023",
+      "coach":"Omar",
+      "image":"https://static.wixstatic.com/media/874f20_797652f027fb4c7499855aac494e96bd~mv2.webp/v1/fill/w_1600,h_900,al_c/874f20_797652f027fb4c7499855aac494e96bd~mv2.webp"
     },
     {
       "id": 2,
-      "title": "this second ",
-      "description": "edit",
-      "userId": 1
+      "title": "MongoDB Course",
+      "description": "MongoDB works best with unstructured data, so it's great for Big Data systems, MapReduce applications, news site forums, and social networking applications",
+      "lessons": 20,
+      "cost":50,
+      "star":4.4,
+      "start":"11/15/2023",
+      "end":"12/15/2023",
+      "coach":"Omar",
+      "image":"https://logowik.com/content/uploads/images/mongodb9740.logowik.com.webp"
     },
     {
       "id": 3,
-      "title": "this second ",
-      "description": "edit",
-      "userId": 44
+      "title": "ReactJs Adv Course",
+      "description": "React is a library. It lets you put components together, but it doesn't prescribe how to do routing and data fetching. To build an entire app with React",
+      "lessons": 40,
+      "cost":50,
+      "star":4.8,
+      "start":"10/15/2023",
+      "end":"12/15/2023",
+      "coach":"Omar",
+      "image":"https://resources.reed.co.uk/courses/coursemedia/356024/6bdbb4b3-8ec6-4275-97f6-e3df61f57583_cover.webp"
+
+      
+    },
+    {
+      "id": 4,
+      "title": "NodeJs Course",
+      "description": "Nodejs is an open-source, cross-platform JavaScript runtime environment. Download for Linux (x64). 18.18.2 LTSRecommended For Most Users ",
+      "lessons": 40,
+      "cost":50,
+      "star":4.5,
+      "start":"10/15/2023",
+      "end":"12/15/2023",
+      "coach":"Ahmad",
+      "image":"https://blog.appsignal.com/_next/image?url=%2Fimages%2Fblog%2F2022-11%2Fnode19.png&w=1200&q=50"
+    },
+    {
+      "id": 5,
+      "title": "ExpressJs Course",
+      "description": "Express is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications. APIs. ",
+      "lessons": 40,
+      "cost":50,
+      "star":4.5,
+      "start":"10/15/2023",
+      "end":"12/15/2023",
+      "coach":"Ahmad",
+      "image":"https://markovate.com/wp-content/uploads/2022/06/Is-Express.js-Framework-An-Ideal-Choice-For-Developing-Enterprise-Applications_@2x.png"
+
+    },
+    {
+      "id": 6,
+      "title": "Nestjs Course",
+      "description": "NestJS is a framework for building efficient, scalable Node.js web applications. It uses modern JavaScript, is built with TypeScript and combines elements",
+      "lessons": 40,
+      "cost":50,
+      "star":4.8,
+      "start":"10/15/2023",
+      "end":"12/15/2023",
+      "coach":"Sami",
+      "image":"https://cdn.hashnode.com/res/hashnode/image/upload/v1611143647173/upHLKKOgs.png?auto=compress,format&format=webp"
+
+    },
+    {
+      "id": 7,
+      "title": "Bootstrap Course",
+      "description": "Bootstrap utilizes Sass for a modular and customizable architecture. Import only the components you need, enable global options like gradients and shadows",
+      "lessons": 20,
+      "cost":50,
+      "star":4.4,
+      "start":"11/15/2023",
+      "end":"12/15/2023",
+      "coach":"Sami",
+      "image":"https://www.rlogical.com/wp-content/uploads/2023/03/bootstrap-5-1024x576-1.webp"
+
+    },
+    {
+      "id": 8,
+      "title": "Nextjs Course",
+      "description": "Next.js is a React framework for building full-stack web applications. You use React Components to build user interfaces, and Next.js for additional features and optimizations.",
+      "lessons": 40,
+      "cost":50,
+      "star":4.5,
+      "start":"10/15/2023",
+      "end":"12/15/2023",
+      "coach":"Batoul",
+      "image":"https://images.ctfassets.net/23aumh6u8s0i/c04wENP3FnbevwdWzrePs/1e2739fa6d0aa5192cf89599e009da4e/nextjs"
+
+    },
+    {
+      "id": 9,
+      "title": "ReactJs Adv Course",
+      "description": "React is a library. It lets you put components together, but it doesn't prescribe how to do routing and data fetching. To build an entire app with React",
+      "lessons": 40,
+      "cost":50,
+      "star":4.8,
+      "start":"10/15/2023",
+      "end":"12/15/2023",
+      "coach":"Batoul",
+      "image":"https://resources.reed.co.uk/courses/coursemedia/356024/6bdbb4b3-8ec6-4275-97f6-e3df61f57583_cover.webp"
+
+    },
+    {
+      "id": 10,
+      "title": "NodeJs Course",
+      "description": "Nodejs is an open-source, cross-platform JavaScript runtime environment. Download for Linux (x64). 18.18.2 LTSRecommended For Most Users ",
+      "lessons": 40,
+      "cost":50,
+      "star":4.5,
+      "start":"10/15/2023",
+      "end":"12/15/2023",
+      "coach":"Layal",
+      "image":"https://blog.appsignal.com/_next/image?url=%2Fimages%2Fblog%2F2022-11%2Fnode19.png&w=1200&q=50"
+
     }
-  ]
+  ],
+  "teacher": [
+    {
+      "id": 1,
+      "name": "Omar",
+      "teach": "ReactJs",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora eum molestias officiis accusantium odit iure totam.",
+      "image":"https://www.shareicon.net/data/128x128/2016/05/24/770137_man_512x512.png"
+    },
+    {
+      "id": 2,
+      "name": "Batoul",
+      "teach": "ReactJs",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora eum molestias officiis accusantium odit iure totam.",
+      "image":"https://icones.pro/wp-content/uploads/2021/03/avatar-de-personne-icone-homme.png"
+
+    },
+    {
+      "id": 3,
+      "name": "Ahmad",
+      "teach": "NextJs",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora eum molestias officiis accusantium odit iure totam.",
+      "image":"https://cdn1.vectorstock.com/i/1000x1000/10/50/doctor-professional-avatar-character-vector-24991050.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Layal",
+      "teach": "Nodejs",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora eum molestias officiis accusantium odit iure totam.",
+      "image":"https://img.favpng.com/17/17/20/professional-computer-icons-avatar-job-png-favpng-tWiTgDuutg4v0iY0j8d5T5fVb.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Sami",
+      "teach": "ReactJs",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora eum molestias officiis accusantium odit iure totam.",
+      "image":"https://www.shareicon.net/data/128x128/2016/08/05/806962_user_512x512.png"
+    }
+  ],
+  "students": [
+    {
+      "id": 1,
+      "name": "Omar",
+      "account": "omar@gmail.com",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora eum molestias officiis accusantium odit iure totam.",
+      "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Missing_avatar.svg/1024px-Missing_avatar.svg.png"
+
+    },
+    {
+      "id": 2,
+      "name": "Batoul",
+      "account": "batoul@gmail.com",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora eum molestias officiis accusantium odit iure totam.",
+      "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Missing_avatar.svg/1024px-Missing_avatar.svg.png"
+    },
+    {
+      "id": 3,
+      "name": "Ahmad",
+      "account": "ahmad@gmail.com",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora eum molestias officiis accusantium odit iure totam.",
+      "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Missing_avatar.svg/1024px-Missing_avatar.svg.png"
+    },
+    {
+      "id": 4,
+      "name": "Layal",
+      "account": "layal@gmail.com",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora eum molestias officiis accusantium odit iure totam.",
+      "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Missing_avatar.svg/1024px-Missing_avatar.svg.png"
+    },
+    {
+      "id": 5,
+      "name": "Sami",
+      "account": "sami@gmail.com",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora eum molestias officiis accusantium odit iure totam.",
+      "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Missing_avatar.svg/1024px-Missing_avatar.svg.png"
+    },
+    {
+      "id": 6,
+      "name": "Hydra",
+      "account": "hydra@gmail.com",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora eum molestias officiis accusantium odit iure totam.",
+      "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Missing_avatar.svg/1024px-Missing_avatar.svg.png"
+    },
+    {
+      "id": 7,
+      "name": "Haya",
+      "account": "haya@gmail.com",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora eum molestias officiis accusantium odit iure totam.",
+      "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Missing_avatar.svg/1024px-Missing_avatar.svg.png"
+    },
+    {
+      "id": 8,
+      "name": "Tamer",
+      "account": "tamer@gmail.com",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora eum molestias officiis accusantium odit iure totam.",
+      "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Missing_avatar.svg/1024px-Missing_avatar.svg.png"
+    },
+    {
+      "id": 9,
+      "name": "Samir",
+      "account": "samir@gmail.com",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora eum molestias officiis accusantium odit iure totam.",
+      "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Missing_avatar.svg/1024px-Missing_avatar.svg.png"
+    },
+    {
+      "id": 10,
+      "name": "Wael",
+      "account": "wael@gmail.com",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora eum molestias officiis accusantium odit iure totam.",
+      "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Missing_avatar.svg/1024px-Missing_avatar.svg.png"
+    }
+  ],
+  "users": [
+      {
+        "id": 1,
+        "user_name": "admin",
+        "email": "admin@email.com",
+        "password": "admin",
+        "role":"admin"
+      },
+      {
+        "id": 2,
+        "user_name": "user",
+        "email": "user@email.com",
+        "password": "user",
+        "role":"user"
+      },
+      {
+        "id": 3,
+        "user_name": "user2",
+        "email": "user2@email.com",
+        "password": "user2",
+        "role":"user"
+      },
+        {
+        "id": 4,
+        "user_name": "user3",
+        "email": "user3@email.com",
+        "password": "user3",
+        "role":"user"
+      }
+    ]
+
 }
